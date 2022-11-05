@@ -8,6 +8,7 @@ El código permite simular el resultado que se hubiese obtenido al aplicar el cr
 
 Mediante una aplicación del algoritmo [Gadient Descent](https://en.wikipedia.org/wiki/Gradient_descent) el código pretende permitir encontrar los parámetros óptimos que puede tener el criterio propueto.
 
+# Criterio
 
 The objective of the project is to be a tool to search for an optimal criterion for buying and selling stock shares through [Backtesting] (https://es.wikipedia.org/wiki/backtesting) using historical data of daily quotes from the market for the last 20 years.
 
