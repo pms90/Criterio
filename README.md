@@ -10,10 +10,10 @@ Mediante una aplicación del algoritmo [Gadient Descent](https://en.wikipedia.or
 
 # Criterio
 
-The objective of the project is to be a tool to search for an optimal criterion for buying and selling stock shares through [Backtesting](https://es.wikipedia.org/wiki/backtesting) using historical data of daily quotes from the market for the last 20 years.
+The objective of the project is to be a tool to search for an optimal criterion for buying and selling stock shares through [backtesting](https://es.wikipedia.org/wiki/backtesting) using historical data of daily quotes from the market for the last 20 years.
 
 The user of the code can define any buy-sell criteria that is determined by any number of parameters, with the only condition that they take real values.
 
 The code allows simulating the result that would have been obtained by applying the purchase-sale criteria defined during the 20 years and graphing it.
 
-Through an application of the [gadient descent](https://en.wikipedia.org/wiki/gradent_descent) algorithm the code aims to allow finding the optimal parameters that the proposed criterion can have.
+Through an application of the [Gadient Descent](https://en.wikipedia.org/wiki/gradent_descent) algorithm the code aims to allow finding the optimal parameters that the proposed criterion can have.
