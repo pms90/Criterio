@@ -1,8 +1,8 @@
 # Criterio
 
-El objetivo del proyecto es ser una herramienta para búsqueda de un criterio óptimo de compra-venta de acciones en el mercado mediante [backtesting](https://es.wikipedia.org/wiki/Backtesting) usando datos históricos de cotizacines diarias del mercado de los últimos 20 años.  
+El objetivo del proyecto es ser una herramienta para la búsqueda de un criterio óptimo de compra-venta de acciones en el mercado mediante [backtesting](https://es.wikipedia.org/wiki/Backtesting) usando datos históricos de cotizacines diarias del mercado de los últimos 20 años.  
 
-El usuario del código puede definir cualquier criterio de compra-venta que esté determinado por cualquier numero de parámetros, con la única condición de que tomen valores reales. 
+El usuario del código puede definir cualquier criterio de compra-venta que esté determinado por cualquier número de parámetros, con la única condición de que tomen valores reales. 
 
 El código permite simular el resultado que se hubiese obtenido al aplicar el criterio definido de compra-venta durante los ulimos 20 años y graficarlo.
 
