@@ -4,7 +4,23 @@ import definitions
 
 '''
 
-Se muestra a continuación, en forma de tests independientes, el uso del código. 
+El objetivo del proyecto es sistematizar la búsqueda de un criterio óptimo de
+compra-venta de acciones en el mercado mediante backtesting usando datos
+históricos de cotizaciones diarias del mercado de los últimos 20 años.
+
+El usuario del código puede definir cualquier criterio de compra-venta que
+esté determinado por cualquier número de parámetros, con la única condición
+de que tomen valores reales.
+
+El código permite simular el resultado que se hubiese obtenido al aplicar el
+criterio definido de compra-venta durante los úlimos 20 años y graficarlo.
+
+Mediante una aplicación del algoritmo Gadient Descent el código pretende
+permitir encontrar los parámetros óptimos que puede tener el criterio 
+propueto.
+
+Aquí se muestra un posible uso del código, presentado en forma de snippets o
+"TEST" independientes.
 
 Se han definido como ejemplo, en "definitions.py", un criterio de compra y 
 venta, una funcióon de costo, y los tickers del mercado que se usarán como 
@@ -16,8 +32,8 @@ se visualizan las compras y ventas que habrían tenido lugar, y se muestra el
 resultado neto. 
 
 Luego se ajustan los paramaetros que determinan el criterio mediante el 
-algoritmo Gradient Descent para obtener los que minimizen la función de costo 
-definida.
+algoritmo Gradient Descent para obtener los que minimizan la función de costo 
+definida (maximicen la ganancia).
 
 '''
 
@@ -99,8 +115,6 @@ test_update = 0
 
 if test_update==1:
     mm.update_data(TICKERS)
-
-
 
 
 
